@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Empresas</string>
+    <string name="bem_vindo">BEM-VINDO AO EMPRESAS</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="instrucao">Clique nas busca para iniciar</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="sub_title">Lorem ipsum dolor sit amet, contetur adipiscing elit. Nunc accumsan.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_home2">HomeActivity2</string>
+    <string name="erro">ERRO</string>
+    <string name="userpass">Usuário ou Senha Incorretos!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>

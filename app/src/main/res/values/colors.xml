@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fundo">#ebe9d7</color>
+    <color name="botao">#57bbbc</color>
+    <color name="corletra">#ffffff</color>
+    <color name="menu1">#ec406e</color>
+    <color name="menu2">#0d0430</color>
+    <color name="charcoal_grey">#383743</color>
+    <color name="cor_imagem">#60CC75</color>
+    <color name="cor_letra_desc">#8d8c8c</color>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fundo"
+            android:fillViewport="true">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/fundo">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="62.5dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/bem_vindo"
+            android:layout_width="146.5dp"
+            android:layout_height="48.5dp"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:text="@string/bem_vindo"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#383743"/>
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16.5dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="3.5sp"
+            android:text="@string/sub_title"
+            android:textColor="#383743"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    <RelativeLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="59dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:id="@+id/carta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_carta"
+                    android:layout_gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/email"
+                    android:textSize="17sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+         </RelativeLayout>
+            
+         <RelativeLayout
+             android:layout_width="270dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="30.5dp">
+            
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center_vertical"
+                 android:orientation="horizontal"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentStart="true">
+
+                     <ImageView
+                     android:id="@+id/cadeado"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     app:srcCompat="@drawable/ic_cadeado"
+                     android:layout_gravity="center_vertical"/>
+
+                     <EditText
+                         android:id="@+id/senha"
+                         android:inputType="textPassword"
+                         android:layout_width="250dp"
+                         android:layout_height="wrap_content"
+                         android:fontFamily="sans-serif"
+                         android:hint="@string/senha"
+                         android:textSize="17sp"
+                         android:textStyle="normal" />
+
+             </LinearLayout>
+
+
+         </RelativeLayout>
+
+        <Button
+                android:id="@+id/button_login"
+                android:layout_width="270dp"
+                android:layout_height="44dp"
+                android:text="@string/entrar"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/corletra"
+                android:background="@color/botao"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

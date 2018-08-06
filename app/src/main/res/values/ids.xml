@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="enterprise_image" type="id">enterprise_image</item>
+    <item name="no_enterprise_image" type="id">no_enterprise_image</item>
+    <item name="enterprise_name" type="id">enterprise_name</item>
+    <item name="enterprise_type" type="id">enterprise_type</item>
+    <item name="enterprise_country" type="id">enterprise_country</item>
+</resources>
